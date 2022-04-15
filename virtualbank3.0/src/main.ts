@@ -1,0 +1,88 @@
+import { createApp } from 'vue'
+import {
+  Button,
+  Icon,
+  Tabbar,
+  TabbarItem,
+  ActionSheet,
+  Cell,
+  Divider,
+  Image as VanImage,
+  NavBar,
+  NumberKeyboard,
+  Form,
+  Field,
+  CellGroup,
+  Dialog,
+  Overlay,
+  PasswordInput,
+  Checkbox,
+  Tag,
+  Switch,
+  Col,
+  Row,
+  Tab,
+  Tabs,
+  Empty,
+  Calendar,
+  Swipe,
+  SwipeItem,
+  RadioGroup,
+  Radio,
+  Step,
+  Steps,
+  SubmitBar,
+  CheckboxGroup,
+  List,
+  Search,
+} from 'vant'
+import * as echarts from 'echarts'
+import App from './App.vue'
+import router from '@/router'
+import store from '@/store'
+import 'vant/lib/index.css'
+const elements = [
+  store,
+  router,
+  Button,
+  Tabbar,
+  TabbarItem,
+  Icon,
+  ActionSheet,
+  Cell,
+  Divider,
+  VanImage,
+  NavBar,
+  NumberKeyboard,
+  Form,
+  Field,
+  CellGroup,
+  Dialog,
+  Overlay,
+  PasswordInput,
+  Checkbox,
+  Tag,
+  Switch,
+  Col,
+  Row,
+  Tab,
+  Tabs,
+  Empty,
+  Calendar,
+  Swipe,
+  SwipeItem,
+  RadioGroup,
+  Radio,
+  Step,
+  Steps,
+  SubmitBar,
+  CheckboxGroup,
+  List,
+  Search,
+]
+const app = createApp(App)
+elements.forEach((el) => {
+  app.use(el)
+})
+app.config.globalProperties.$echarts = echarts
+app.mount('#app')
