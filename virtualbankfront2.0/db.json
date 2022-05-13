@@ -1,0 +1,70 @@
+{
+    "user": [
+        {
+            "name": "1",
+            "age": 21
+        },
+        {
+            "name": "2",
+            "age": 22
+        },
+        {
+            "name": "3",
+            "age": 23
+        }
+    ],
+    "getAccountList": {
+        "code": 200,
+        "message": "已查询到该用户所持有的accountId",
+        "data": [
+            {
+                "accountId": "5462121212121212",
+                "payPassword": "123456",
+                "bankName": "中国雄鸡银行",
+                "username": "曹洋",
+                "personalId": "612524200002130416",
+                "money": 1700.00,
+                "dailyMoney": 50000.00,
+                "createTime": 1645601384000,
+                "type": "1",
+                "mobilePhone": "18277397357",
+                "remark1": null,
+                "accountState": "0",
+                "remark2": null,
+                "remark3": null
+            },
+            {
+                "accountId": "5462151515151515",
+                "payPassword": "123456",
+                "bankName": "中国工商银行",
+                "username": "曹洋",
+                "personalId": "612524200002130416",
+                "money": 2700.00,
+                "dailyMoney": 50000.00,
+                "createTime": 1645601384000,
+                "type": "1",
+                "mobilePhone": "18277397357",
+                "remark1": null,
+                "accountState": "0",
+                "remark2": null,
+                "remark3": null
+            },
+            {
+                "accountId": "5462131313131313",
+                "payPassword": "123456",
+                "bankName": "中国雄鸡银行",
+                "username": "曹洋",
+                "personalId": "612524200002130416",
+                "money": 9600.00,
+                "dailyMoney": 10000.00,
+                "createTime": 1645601564000,
+                "type": "2",
+                "mobilePhone": "18277397357",
+                "remark1": null,
+                "accountState": "0",
+                "remark2": null,
+                "remark3": null
+            }
+        ]
+    }
+}
